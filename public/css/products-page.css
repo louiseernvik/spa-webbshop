@@ -1,0 +1,134 @@
+@import '../css/general.css';
+
+#title-search-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+#title-search-div > h1 {
+    font-family: var(--ff-rubrik);
+    color: var(--black);
+}
+
+h2 {
+    font-family: var(--ff-rubrik);
+    color: var(--black);
+}
+
+h3 {
+    font-size: 18px;
+}
+
+#search-product-form > input {
+   margin: 5px 15px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto 60px;
+}
+
+#product-grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-gap: 40px;
+}
+
+.product-grid-info {
+    font-size: 12px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-grid-info-left {
+    max-width: 200px;
+    font-family: var(--ff-bodytext);
+    color: var(--black);
+    font-size: 14px;
+}
+
+#add-cart-form {
+    text-align: right;
+    width: 120px;
+}
+
+#add-cart-form > input[type=number] {
+    width: 50px;
+}
+
+.grid-add-btn, .dropdown-toggle-search {
+    font-family: var(--ff-rubrik);
+    background-color: var(--green);
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+
+    margin-top: 10px;
+}
+
+.grid-add-btn:hover, .dropdown-toggle-search:hover {
+    background-color: var(--green);
+	color: var(--white);	
+    box-shadow: 0px 0px 0px 4px #7c8e748d;
+}
+
+.product-navigation {
+    font-family: var(--ff-bodytext);
+    margin: 50px 0;
+}
+
+.product-description {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 50px;
+
+    font-family: var(--ff-bodytext);
+}
+
+.product-desc-mid-right {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0px;
+}
+
+#add-cart-product {
+    margin-top: 40px;
+}
+
+.product-add-btn {
+    font-family: var(--ff-rubrik);
+    background-color: var(--green);
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    margin: -2px 0 0 15px;
+    width: 180px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: .3rem;
+}
+
+.grid-img {
+    width: 300px;
+}
+
+.img-large {
+    width: 500px;
+}
+
+li {
+    margin: 10px 0;
+}
